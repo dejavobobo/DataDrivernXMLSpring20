@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression_Test_Data]">
+  <test name="LoginTest(failed)">
+    <parameter name="zip" value="87954"/>
+    <parameter name="password" value="abc123"/>
+    <parameter name="address" value="Techfios Building"/>
+    <parameter name="city" value="Carrolton"/>
+    <parameter name="fullName" value="Microsoft Excell"/>
+    <parameter name="company" value="Techfios"/>
+    <parameter name="phoneNum" value="236549"/>
+    <parameter name="state" value="TX"/>
+    <parameter name="email" value="msexcell@gmail.com"/>
+    <parameter name="username" value="demo@techfios.com"/>
+    <parameter name="group" value="Spring 2020"/>
+    <classes>
+      <class name="test.AddCustomerTest">
+        <methods>
+          <include name="validUserShouldBeAbleToUseSearchBarOnListCustomer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.AddCustomerTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Regression_Test_Data] -->

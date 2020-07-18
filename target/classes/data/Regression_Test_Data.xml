@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression_Test_Data">
+
+	<test name="LoginTest">
+
+		<parameter name="username" value="demo@techfios.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="fullName" value="Microsoft Excell" />
+		<parameter name="company" value="Techfios" />
+		<parameter name="email" value="msexcell@gmail.com" />
+		<parameter name="phoneNum" value="236549" />
+		<parameter name="address" value="Techfios Building" />
+		<parameter name="city" value="Carrolton" />
+		<parameter name="state" value="TX" />
+		<parameter name="zip" value="87954" />
+		<parameter name="group" value="Spring 2020" />
+
+		<classes>
+
+			<class name="test.LoginTest" />		<!-- inject parameterized data on class -->
+			<class name="test.AddCustomerTest" />
+
+		</classes>
+
+	</test>
+
+</suite>
